@@ -47,7 +47,7 @@ function App() {
         const gestureName = gesture.gestures[maxConfidence].name;
         if (gestureName === "thumbs_up") {
           document.querySelector("body").style.background = "rgb(0, 120, 0)"
-          setText("Entrada");
+          setText("Receita");
         } else if (gestureName === "thumbs_down") {
           document.querySelector("body").style.background = "rgb(120, 0, 0)"
           setText("Despesa");
